@@ -9,7 +9,11 @@ class Position:
 class Velocity:
     def __init__(self, vx=0, vy=0):
         self.vx = vx
-        self.vy = vy    
+        self.vy = vy
+
+class Input:
+    def __init__(self, can_jump = False):
+        self.can_jump = can_jump    
 
 
 class Sprite(pygame.sprite.Sprite):

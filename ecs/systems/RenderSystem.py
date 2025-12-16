@@ -1,6 +1,6 @@
 import pygame
 
-from ecs.components.MovementComp import Position, Sprite
+from ecs.components.MovementComps import Position, Sprite
 from ecs.entities.EntityManager import EntityManager
 
 
