@@ -1,2 +1,0 @@
-# OpenSesame Intership
-
